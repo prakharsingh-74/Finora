@@ -1,8 +1,4 @@
 # 💼 Finora — Full Stack AI Finance Platform
-
-> **Finora 💼** — A Full Stack AI Finance Platform built with Next.js, Supabase, Prisma, Tailwind, Shadcn UI, Inngest, and ArcJet.  
-> Experience intelligent finance automation, secure authentication, and real-time insights powered by AI.
-
 ---
 
 ## 🌟 About Finora
