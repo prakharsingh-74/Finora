@@ -10,14 +10,14 @@ It combines intelligent data analysis, seamless UI, and secure backend integrati
 
 
 ## Features
-✅ AI-powered financial insights using Gemini API
-✅ Secure user authentication with Clerk
-✅ Real-time database and analytics with Supabase
-✅ Automated background tasks with Inngest
-✅ Transactional emails using Resend
-✅ Rate-limiting and security with ArcJet
-✅ Beautiful, accessible UI with Shadcn + Tailwind CSS
-✅ Fully typed backend with Prisma ORM
+✅ AI-powered financial insights using Gemini API.
+✅ Secure user authentication with Clerk.
+✅ Real-time database and analytics with Supabase.
+✅ Automated background tasks with Inngest.
+✅ Transactional emails using Resend.
+✅ Rate-limiting and security with ArcJet.
+✅ Beautiful, accessible UI with Shadcn + Tailwind CSS.
+✅ Fully typed backend with Prisma ORM.
 
 ## 🚀 Tech Stack
 
@@ -39,7 +39,7 @@ It combines intelligent data analysis, seamless UI, and secure backend integrati
 
 Create a `.env` file in the root of your project and add the following environment variables:
 
-```env
+```
 DATABASE_URL=
 DIRECT_URL=
 
@@ -55,6 +55,7 @@ GEMINI_API_KEY=
 RESEND_API_KEY=
 
 ARCJET_KEY=
+```
 
 ## Installation
 # 1. Clone the repository
