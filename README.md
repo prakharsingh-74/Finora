@@ -23,15 +23,15 @@ It combines intelligent data analysis, seamless UI, and secure backend integrati
 
 | Layer | Technology |
 |-------|-------------|
-| **Frontend** | [Next.js 15](https://nextjs.org/) + [TypeScript](https://www.typescriptlang.org/) |
-| **Database** | [Supabase (PostgreSQL)](https://supabase.com/) |
-| **ORM** | [Prisma](https://www.prisma.io/) |
-| **Styling** | [Tailwind CSS](https://tailwindcss.com/) + [Shadcn UI](https://ui.shadcn.com/) |
-| **AI Integration** | Google Gemini API |
-| **Auth** | [Clerk](https://clerk.dev/) |
-| **Email Service** | [Resend](https://resend.com/) |
-| **Background Jobs** | [Inngest](https://www.inngest.com/) |
-| **Security & Rate Limiting** | [ArcJet](https://arcjet.com/) |
+| **Next js 15**
+| **Supabase**
+| **Prisma ORM**
+| **Tailwind css + Shadcn UI**
+| **Google gemini API** 
+| **Clerk Auth** 
+| **Email Service** 
+| **Background Jobs** 
+| **Security & Rate Limiting** 
 
 ---
 
