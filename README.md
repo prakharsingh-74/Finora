@@ -29,7 +29,7 @@ It combines intelligent data analysis, seamless UI, and secure backend integrati
 | **Tailwind css + Shadcn UI**
 | **Google gemini API** 
 | **Clerk Auth** 
-| **Email Service** 
+| **Email Service - Resend** 
 | **Background Jobs - Inngest** 
 | **Arcjet** 
 
