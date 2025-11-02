@@ -1,15 +1,15 @@
-
-import arcjet, { createMiddleware, detectBot, shield } from "@arcjet/next/server";
+import arcjet, { createMiddleware, detectBot, shield } from "@arcjet/next";
 import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server";
 import { NextResponse } from "next/server";
 
+// Protect specific routes
 const isProtectedRoute = createRouteMatcher([
   "/dashboard(.*)",
   "/account(.*)",
   "/transaction(.*)",
 ]);
 
-// ArcJet protection (bot + shield)
+// ArcJet protection setup
 const aj = arcjet({
   key: process.env.ARCJET_KEY,
   rules: [
@@ -17,14 +17,14 @@ const aj = arcjet({
     detectBot({
       mode: "LIVE",
       allow: [
-        "CATEGORY:SEARCH_ENGINE",
-        "GO_HTTP", // Inngest
+        "CATEGORY:SEARCH_ENGINE", // Google, Bing, etc.
+        "GO_HTTP", // For Inngest
       ],
     }),
   ],
 });
 
-
+// Clerk authentication
 const clerk = clerkMiddleware(async (auth, req) => {
   const { userId, redirectToSignIn } = await auth();
 
