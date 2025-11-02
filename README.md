@@ -30,8 +30,8 @@ It combines intelligent data analysis, seamless UI, and secure backend integrati
 | **Google gemini API** 
 | **Clerk Auth** 
 | **Email Service** 
-| **Background Jobs** 
-| **Security & Rate Limiting** 
+| **Background Jobs - Inngest** 
+| **Arcjet** 
 
 ---
 
