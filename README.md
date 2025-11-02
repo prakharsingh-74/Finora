@@ -21,8 +21,8 @@ It combines intelligent data analysis, seamless UI, and secure backend integrati
 
 ## 🚀 Tech Stack
 
-| Layer | Technology |
-|-------|-------------|
+| Layer |
+|-------|
 | **Next js 15**
 | **Supabase**
 | **Prisma ORM**
